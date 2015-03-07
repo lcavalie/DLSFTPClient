@@ -11,7 +11,6 @@
 		372F7BF0162CDE1D0038F852 /* DLSFTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3734F04C15D69AE30078A7E5 /* DLSFTPConnection.m */; };
 		372F7BF1162CDE230038F852 /* DLSFTPFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3738FE4115D72B9600D4BE07 /* DLSFTPFile.m */; };
 		372F7BF2162CDE290038F852 /* NSDictionary+SFTPFileAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 3738FE4815D7694C00D4BE07 /* NSDictionary+SFTPFileAttributes.m */; };
-		3731A5A716CB2F8A00A238C2 /* privatekey.pem in Resources */ = {isa = PBXBuildFile; fileRef = 3731A5A616CB2F8A00A238C2 /* privatekey.pem */; };
 		3734F02F15D699FE0078A7E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3734F02E15D699FE0078A7E5 /* UIKit.framework */; };
 		3734F03115D699FE0078A7E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3734F03015D699FE0078A7E5 /* Foundation.framework */; };
 		3734F03315D699FE0078A7E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3734F03215D699FE0078A7E5 /* CoreGraphics.framework */; };
@@ -30,29 +29,15 @@
 		375BDAAD16EAE4ED00E96C64 /* DLSFTPUploadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 375BDAAC16EAE4ED00E96C64 /* DLSFTPUploadRequest.m */; };
 		375BDAB316EB881E00E96C64 /* DLSFTPMoveRenameRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 375BDAB216EB881E00E96C64 /* DLSFTPMoveRenameRequest.m */; };
 		375BDAB916EB913900E96C64 /* DLSFTPRemoveFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 375BDAB816EB913900E96C64 /* DLSFTPRemoveFileRequest.m */; };
-		375BDABA16EB940000E96C64 /* DLSFTPClientPrivateKeyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3731A5A916CB2FEA00A238C2 /* DLSFTPClientPrivateKeyTests.m */; };
 		375D47F615F0402300BB8B79 /* FileUploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375D47F515F0402300BB8B79 /* FileUploadViewController.m */; };
 		375D47FA15F1939E00BB8B79 /* UploadFilePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375D47F915F1939E00BB8B79 /* UploadFilePickerViewController.m */; };
 		3788412716CF2CAA00CBCB2D /* libDLSFTPClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 372F7BE4162CDDE60038F852 /* libDLSFTPClient.a */; };
 		379B78E715E86DA5007B8DAB /* LocalFilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 379B78E615E86DA5007B8DAB /* LocalFilesViewController.m */; };
 		37A5B1BA15F5119A00B1577E /* FileOperationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A5B1B915F5119A00B1577E /* FileOperationsViewController.m */; };
-		37CDBC8E169FBBB900232688 /* testfile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37CDBC8D169FBBB900232688 /* testfile.jpg */; };
 		37D09450172DB84700375E11 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D0944F172DB84700375E11 /* CFNetwork.framework */; };
 		37D09452172DB87B00375E11 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D0944F172DB84700375E11 /* CFNetwork.framework */; };
-		37D09453172DB87C00375E11 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D0944F172DB84700375E11 /* CFNetwork.framework */; };
 		37D6580E160EA1870041099A /* DLDocumentsDirectoryPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D6580D160EA1870041099A /* DLDocumentsDirectoryPath.m */; };
 		37D65811160EA1F50041099A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D65810160EA1F50041099A /* Default-568h@2x.png */; };
-		37DB18AB1699EB300053D51A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DB18AA1699EB300053D51A /* SenTestingKit.framework */; };
-		37DB18AC1699EB300053D51A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3734F02E15D699FE0078A7E5 /* UIKit.framework */; };
-		37DB18AD1699EB300053D51A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3734F03015D699FE0078A7E5 /* Foundation.framework */; };
-		37DB18B31699EB300053D51A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37DB18B11699EB300053D51A /* InfoPlist.strings */; };
-		37DB18B61699EB300053D51A /* DLSFTPClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DB18B51699EB300053D51A /* DLSFTPClientTests.m */; };
-		37DB18BF1699F0280053D51A /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3734F05015D69B190078A7E5 /* libssl.a */; };
-		37DB18C01699F02B0053D51A /* libssh2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3734F04F15D69B190078A7E5 /* libssh2.a */; };
-		37DB18C11699F02F0053D51A /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3734F04E15D69B190078A7E5 /* libcrypto.a */; };
-		37DB18C21699F0320053D51A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3738FE3D15D704E900D4BE07 /* libz.dylib */; };
-		37DB18C3169A30820053D51A /* libDLSFTPClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 372F7BE4162CDDE60038F852 /* libDLSFTPClient.a */; };
-		37DB18D1169A3AB10053D51A /* ConnectionInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37DB18D0169A3AB10053D51A /* ConnectionInfo.plist */; };
 		37F90D2015DC98F1006F8FB7 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F90D1F15DC98F1006F8FB7 /* LoginViewController.m */; };
 		37F90D2415E13FB6006F8FB7 /* FileBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F90D2315E13FB6006F8FB7 /* FileBrowserViewController.m */; };
 		37F90D2715E14D87006F8FB7 /* DLFileSizeFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F90D2615E14D87006F8FB7 /* DLFileSizeFormatter.m */; };
@@ -61,13 +46,6 @@
 
 /* Begin PBXContainerItemProxy section */
 		3788412516CF2C8E00CBCB2D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3734F02115D699FE0078A7E5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 372F7BE3162CDDE60038F852;
-			remoteInfo = DLSFTPClient;
-		};
-		3788412816CF2CB100CBCB2D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3734F02115D699FE0078A7E5 /* Project object */;
 			proxyType = 1;
@@ -143,7 +121,6 @@
 		37D6580C160EA1860041099A /* DLDocumentsDirectoryPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLDocumentsDirectoryPath.h; sourceTree = "<group>"; };
 		37D6580D160EA1870041099A /* DLDocumentsDirectoryPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLDocumentsDirectoryPath.m; sourceTree = "<group>"; };
 		37D65810160EA1F50041099A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		37DB18A91699EB300053D51A /* DLSFTPClientTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLSFTPClientTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37DB18AA1699EB300053D51A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		37DB18B01699EB300053D51A /* DLSFTPClientTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DLSFTPClientTests-Info.plist"; sourceTree = "<group>"; };
 		37DB18B21699EB300053D51A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -187,22 +164,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37DB18A51699EB300053D51A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				37DB18C3169A30820053D51A /* libDLSFTPClient.a in Frameworks */,
-				37DB18AB1699EB300053D51A /* SenTestingKit.framework in Frameworks */,
-				37DB18AC1699EB300053D51A /* UIKit.framework in Frameworks */,
-				37DB18AD1699EB300053D51A /* Foundation.framework in Frameworks */,
-				37DB18BF1699F0280053D51A /* libssl.a in Frameworks */,
-				37DB18C01699F02B0053D51A /* libssh2.a in Frameworks */,
-				37DB18C11699F02F0053D51A /* libcrypto.a in Frameworks */,
-				37DB18C21699F0320053D51A /* libz.dylib in Frameworks */,
-				37D09453172DB87C00375E11 /* CFNetwork.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -224,7 +185,6 @@
 			children = (
 				3734F02A15D699FE0078A7E5 /* DLSFTPClient.app */,
 				372F7BE4162CDDE60038F852 /* libDLSFTPClient.a */,
-				37DB18A91699EB300053D51A /* DLSFTPClientTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -380,25 +340,6 @@
 			productReference = 3734F02A15D699FE0078A7E5 /* DLSFTPClient.app */;
 			productType = "com.apple.product-type.application";
 		};
-		37DB18A81699EB300053D51A /* DLSFTPClientTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 37DB18BA1699EB300053D51A /* Build configuration list for PBXNativeTarget "DLSFTPClientTests" */;
-			buildPhases = (
-				37DB18A41699EB300053D51A /* Sources */,
-				37DB18A51699EB300053D51A /* Frameworks */,
-				37DB18A61699EB300053D51A /* Resources */,
-				37DB18A71699EB300053D51A /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3788412916CF2CB100CBCB2D /* PBXTargetDependency */,
-			);
-			name = DLSFTPClientTests;
-			productName = DLSFTPClientTests;
-			productReference = 37DB18A91699EB300053D51A /* DLSFTPClientTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -423,7 +364,6 @@
 			targets = (
 				3734F02915D699FE0078A7E5 /* DLSFTPClientDemo */,
 				372F7BE3162CDDE60038F852 /* DLSFTPClient */,
-				37DB18A81699EB300053D51A /* DLSFTPClientTests */,
 			);
 		};
 /* End PBXProject section */
@@ -438,34 +378,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37DB18A61699EB300053D51A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				37DB18B31699EB300053D51A /* InfoPlist.strings in Resources */,
-				37DB18D1169A3AB10053D51A /* ConnectionInfo.plist in Resources */,
-				37CDBC8E169FBBB900232688 /* testfile.jpg in Resources */,
-				3731A5A716CB2F8A00A238C2 /* privatekey.pem in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		37DB18A71699EB300053D51A /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		372F7BE0162CDDE60038F852 /* Sources */ = {
@@ -504,15 +417,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37DB18A41699EB300053D51A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				37DB18B61699EB300053D51A /* DLSFTPClientTests.m in Sources */,
-				375BDABA16EB940000E96C64 /* DLSFTPClientPrivateKeyTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -520,11 +424,6 @@
 			isa = PBXTargetDependency;
 			target = 372F7BE3162CDDE60038F852 /* DLSFTPClient */;
 			targetProxy = 3788412516CF2C8E00CBCB2D /* PBXContainerItemProxy */;
-		};
-		3788412916CF2CB100CBCB2D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 372F7BE3162CDDE60038F852 /* DLSFTPClient */;
-			targetProxy = 3788412816CF2CB100CBCB2D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -747,31 +646,6 @@
 			};
 			name = "Debug With Optimizations";
 		};
-		376C09191808BC0C009D2BB3 /* Debug With Optimizations */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DLSFTPClient.app/DLSFTPClient";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_WARN_EMPTY_BODY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DLSFTPClient/Tests/DLSFTPClientTests-Prefix.pch";
-				INFOPLIST_FILE = "DLSFTPClient/Tests/DLSFTPClientTests-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/DLSFTPClient/Libraries/lib\"",
-				);
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = "Debug With Optimizations";
-		};
 		37D6E560176D0E8700A8E5B2 /* Release Ad-Hoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -834,30 +708,6 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-			};
-			name = "Release Ad-Hoc";
-		};
-		37D6E563176D0E8700A8E5B2 /* Release Ad-Hoc */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DLSFTPClient.app/DLSFTPClient";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_WARN_EMPTY_BODY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DLSFTPClient/Tests/DLSFTPClientTests-Prefix.pch";
-				INFOPLIST_FILE = "DLSFTPClient/Tests/DLSFTPClientTests-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/DLSFTPClient/Libraries/lib\"",
-				);
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = "Release Ad-Hoc";
 		};
@@ -926,79 +776,6 @@
 			};
 			name = "Release Distribution";
 		};
-		37D6E567176D0E9100A8E5B2 /* Release Distribution */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DLSFTPClient.app/DLSFTPClient";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_WARN_EMPTY_BODY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DLSFTPClient/Tests/DLSFTPClientTests-Prefix.pch";
-				INFOPLIST_FILE = "DLSFTPClient/Tests/DLSFTPClientTests-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/DLSFTPClient/Libraries/lib\"",
-				);
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = "Release Distribution";
-		};
-		37DB18B81699EB300053D51A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DLSFTPClient.app/DLSFTPClient";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_WARN_EMPTY_BODY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DLSFTPClient/Tests/DLSFTPClientTests-Prefix.pch";
-				INFOPLIST_FILE = "DLSFTPClient/Tests/DLSFTPClientTests-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/DLSFTPClient/Libraries/lib\"",
-				);
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		37DB18B91699EB300053D51A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DLSFTPClient.app/DLSFTPClient";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_WARN_EMPTY_BODY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DLSFTPClient/Tests/DLSFTPClientTests-Prefix.pch";
-				INFOPLIST_FILE = "DLSFTPClient/Tests/DLSFTPClientTests-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/DLSFTPClient/Libraries/lib\"",
-				);
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1034,18 +811,6 @@
 				3734F04415D699FE0078A7E5 /* Release */,
 				37D6E565176D0E9100A8E5B2 /* Release Distribution */,
 				37D6E561176D0E8700A8E5B2 /* Release Ad-Hoc */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		37DB18BA1699EB300053D51A /* Build configuration list for PBXNativeTarget "DLSFTPClientTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				37DB18B81699EB300053D51A /* Debug */,
-				376C09191808BC0C009D2BB3 /* Debug With Optimizations */,
-				37DB18B91699EB300053D51A /* Release */,
-				37D6E567176D0E9100A8E5B2 /* Release Distribution */,
-				37D6E563176D0E8700A8E5B2 /* Release Ad-Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
